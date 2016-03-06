@@ -3,7 +3,7 @@ class Timer:
         self.time = 0.0
 
     def reset(self, config):
-        pass
+        self.time = 0.0
 
     def currentTime(self):
         pass

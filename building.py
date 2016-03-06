@@ -4,4 +4,5 @@ class Building:
         self.floors = [] # list
 
     def reset(self, config):
-        pass
+        self.elevators = config.elevators
+        self.floors = config.floors
