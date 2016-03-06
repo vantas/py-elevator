@@ -6,10 +6,10 @@ class Timer:
         self.time = 0.0
 
     def currentTime(self):
-        pass
+        return self.time
 
     def advanceTo(self, time):
-        pass
+        self.time = time
 
     def advanceBy(self, amount):
-        pass
+        self.time += amount
